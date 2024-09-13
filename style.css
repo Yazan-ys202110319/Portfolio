@@ -295,3 +295,18 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+.edu-icon {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1, .p2, .p3 {
+    display: inline-block;
+}
