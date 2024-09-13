@@ -365,18 +365,3 @@ section {
 }
 
 /* Skills section */
-
-.details-container-skills {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.box {
-    border: rgb(53, 53, 53) 0.5rem solid;
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-
-.art {
-    display: flex;
-}
