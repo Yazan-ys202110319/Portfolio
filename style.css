@@ -166,17 +166,57 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    align-items: center;
 }
 
 .section-pic-container {
     display: flex;
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden; /* Ensures any overflow is clipped */
 }
 
 .my-pic {
     margin: 0;
     padding: 0;
-    border-radius: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover; 
+    /* Ensures the image fits the container properly */
+}
+
+.sectio_text {
+    align-self: center;
+    text-align: center;
+}
+
+.sectio_text p {
+    font-weight: 600;
+}
+
+.section_text_p1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icons */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
 }
