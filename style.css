@@ -171,10 +171,9 @@ section {
 
 .section-pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    overflow: hidden; /* Ensures any overflow is clipped */
+    height: 370px;
+    width: 370px;
+    margin: auto 0;
 }
 
 .my-pic {
