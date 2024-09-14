@@ -480,3 +480,6 @@ article .icon {
 
 /* Project section */
 
+#projects {
+    position: relative;
+}
