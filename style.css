@@ -428,3 +428,52 @@ article .icon {
     justify-content: center;
     align-items: center;
 }
+
+.icon-s {
+    cursor: default;
+    height: 2.8rem;
+    width: 2.8rem;
+}
+
+.icon-java {
+    cursor: dfault;
+    height: 3.5rem;
+    width: 4rem;
+}
+
+.icon-css, .icon-html, .icon-js, .icon-sql, .icon-py {
+    cursor: default;
+    height: 3.6rem;
+    width: 3.5rem;
+}
+
+.icon-git {
+    cursor: default;
+    height: 3.6rem;
+    width: 3.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.art-git {
+    display: flex;
+    width: 8rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.icon-md {
+    cursor: default;
+    height: 3.6rem;
+    width: 3.9rem;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-flask {
+    cursor: default;
+    height: 3.9rem;
+    width: 3.9rem;
+    padding: 0;
+    margin: 0;
+}
