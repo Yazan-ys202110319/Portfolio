@@ -493,4 +493,14 @@ article .icon {
 
 .div-1, .div-2, .div-3 {
     border: red 0.2rem solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.project-img {
+    width: 30%;
+    height: 30%;
 }
