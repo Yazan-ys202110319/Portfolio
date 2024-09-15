@@ -485,24 +485,29 @@ article .icon {
 }
 
 .skills-main-container {
-    border: black 0.5rem solid;
+    border: black solid;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: white;
 }
 
-.div-1, .div-2, .div-3 {
-    border: red 0.2rem solid;
+.div-1-pro, .div-2-pro, .div-3-pro {
+    border: rgb(163, 163, 163) solid;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    align-items: center;
+    margin: 1.5rem 1rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
 }
 
 .project-img {
-    width: 30%;
+    width: 90%;
     height: 30%;
+    margin: 0;
 }
 
 .btn {
@@ -515,3 +520,8 @@ article .icon {
     justify-content: center;
     align-items: center;
 }
+
+.skills-second-container {
+    display: flex;
+    justify-content: space-evenly;
+} 
