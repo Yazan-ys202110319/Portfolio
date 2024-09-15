@@ -488,7 +488,7 @@ article .icon {
     border: black 0.5rem solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .div-1, .div-2, .div-3 {
@@ -503,4 +503,15 @@ article .icon {
 .project-img {
     width: 30%;
     height: 30%;
+}
+
+.btn {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
