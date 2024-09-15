@@ -488,8 +488,11 @@ article .icon {
     border: black solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .div-1-pro, .div-2-pro, .div-3-pro {
@@ -497,22 +500,25 @@ article .icon {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 1.5rem 1rem;
-    padding: 1.5rem;
+    margin: 1.5rem 0rem;
+    padding: 1rem;
     border-radius: 2rem;
+    height: auto;
+    width: 30%;
 }
 
 .project-img {
-    width: 90%;
-    height: 30%;
-    margin: 0;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem;
 }
 
 .btn {
     width: 2.5rem;
     height: 2.5rem;
+    margin: 0;
 }
 
 .btn-div {
