@@ -1,3 +1,13 @@
+@media screen and (max-width: 1400px) {
+    #desktop-navbar {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
     #desktop-navbar {
         display: none;
@@ -6,3 +16,4 @@
         display: flex;
     }
 }
+
