@@ -505,14 +505,13 @@ article .icon {
     margin: 1.5rem 0rem;
     padding: 1rem;
     border-radius: 2rem;
-    height: auto;
+    /* height: auto; */
     width: 30%;
 }
 
 .project-img {
     width: 100%;
     height: 70%;
-    margin: 0.5rem;
     border-radius: 1rem;
 }
 
